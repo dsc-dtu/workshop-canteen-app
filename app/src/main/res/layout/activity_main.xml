@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         <Button
-
+                android:onClick="removeQuantity"
                 android:text="-"
                 android:id="@+id/btnRemove"
                 android:layout_width="48dp"
@@ -60,7 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         <Button
-
+                android:onClick="addQuantity"
                 android:text="+"
                 android:id="@+id/btnAdd"
                 android:layout_width="48dp"
